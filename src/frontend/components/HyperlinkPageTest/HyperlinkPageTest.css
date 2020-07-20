@@ -1,0 +1,56 @@
+.contentWrapper {
+    padding: 30px;
+}
+.buttonWrapper {
+    margin-bottom: 30px;
+}
+.button {
+    padding: 0 20px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    font: 16px Arial;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.button:focus {
+    outline: none;
+    border: 1px solid #6e6e6e;
+}
+.button:hover {
+    border: 1px solid #6e6e6e;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table td, .table th {
+    border: 1px solid #ccc;
+    font: 14px Arial;
+    padding: 5px 10px;
+}
+.table th {
+    background: #e0e0e0;
+}
+.numberTd {
+    width: 100px;
+    text-align: left;
+}
+.statusTd {
+    text-align: center;
+    width: 100px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.scanning {
+    text-align: center;
+    padding: 50px 0;
+}
